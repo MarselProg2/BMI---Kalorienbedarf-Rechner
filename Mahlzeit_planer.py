@@ -1,75 +1,53 @@
-mahlzeiten = {
-  "Untergewicht":{
-    "Frühstück": {
-            "Gericht": "Erdnussbutter-Toast mit Banane",
-            "Kalorien": 500
-        },
-        "Snack 1": {
-            "Gericht": "Handvoll Nüsse & dunkle Schokolade",
-            "Kalorien": 300
-        },
-        "Mittagessen": {
-            "Gericht": "Rindersteak mit Kartoffeln & Gemüse",
-            "Kalorien": 700
-        },
-        "Snack 2": {
-            "Gericht": "Proteinshake mit Milch & Haferflocken",
-            "Kalorien": 400
-        },
-        "Abendessen": {
-            "Gericht": "Vollkornnudeln mit Pesto & Parmesan",
-            "Kalorien": 450
-        }
-     }
-},
-        
-{
-"Normalgewicht": {
-        "Frühstück": {
-            "Gericht": "Joghurt mit Beeren & Honig",
-            "Kalorien": 350
-        },
-        "Snack 1": {
-            "Gericht": "Apfel & Mandeln",
-            "Kalorien": 200
-        },
-        "Mittagessen": {
-            "Gericht": "Hähnchensalat mit Avocado & Balsamico",
-            "Kalorien": 600
-        },
-        "Snack 2": {
-            "Gericht": "Karottensticks mit Hummus",
-            "Kalorien": 250
-        },
-        "Abendessen": {
-            "Gericht": "Lachsfilet mit Reis & Brokkoli",
-            "Kalorien": 500
-        }
-    }
-},
-{
+meal_plan = {
+    "Untergewicht": {
+        "Frühstück": [
+            "Haferflocken mit Banane und Nüssen",
+            "Vollkorntoast mit Avocado und Rührei",
+            "Smoothie mit Joghurt, Beeren und Haferflocken"
+        ],
+        "Mittagessen": [
+            "Quinoa-Salat mit Kichererbsen und Gemüse",
+            "Linsensuppe mit Vollkornbrot",
+            "Reis mit Hähnchenbrust und Brokkoli"
+        ],
+        "Abendessen": [
+            "Pasta mit Pesto und Gemüse",
+            "Gegrillter Lachs mit Süßkartoffeln",
+            "Stir-Fry mit Tofu und Gemüse"
+        ]
+    },
+    "Normalgewicht": {
+        "Frühstück": [
+            "Müsli mit Joghurt und frischem Obst",
+            "Vollkornbrot mit Hummus und Tomaten",
+            "Rührei mit Spinat und Feta"
+        ],
+        "Mittagessen": [
+            "Gemüse-Quiche mit Salat",
+            "Reis-Bowl mit Lachs und Gemüse",
+            "Bohnen-Chili mit Vollkornbrot"
+        ],
+        "Abendessen": [
+            "Hühnchen mit Quinoa und Gemüse",
+            "Fisch-Tacos mit Krautsalat",
+            "Vegetarische Lasagne"
+        ]
+    },
     "Übergewicht": {
-            "Frühstück": {
-                "Gericht": "Haferflocken mit Beeren",
-                "Kalorien": 250
-            },
-            "Snack 1": {
-                "Gericht": "Griechischer Joghurt",
-                "Kalorien": 150
-            },
-            "Mittagessen": {
-                "Gericht": "Putenbrust mit Quinoa & Gemüse",
-                "Kalorien": 400
-            },
-            "Snack 2": {
-                "Gericht": "Gurkensticks mit Hüttenkäse",
-                "Kalorien": 100
-            },
-            "Abendessen": {
-                "Gericht": "Gemüsesuppe mit Tofu",
-                "Kalorien": 300
-        }
+        "Frühstück": [
+            "Haferflocken mit frischem Obst und Nüssen",
+            "Griechischer Joghurt mit Beeren und Chiasamen",
+            "Smoothie mit Spinat, Banane und Mandelmilch"
+        ],
+        "Mittagessen": [
+            "Gemischter Salat mit Thunfisch und Kichererbsen",
+            "Gemüse-Curry mit braunem Reis",
+            "Wraps mit gegrilltem Gemüse und Hummus"
+        ],
+        "Abendessen": [
+            "Gegrilltes Gemüse mit Quinoa",
+            "Hähnchenbrust mit gedünstetem Brokkoli",
+            "Zucchini-Nudeln mit Tomatensauce"
+        ]
     }
 }
-
-
